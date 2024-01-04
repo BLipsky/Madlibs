@@ -2,18 +2,24 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: radial-gradient(rgb(243, 215, 139), rgb(248, 230, 190));
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    color: white;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black;
 }
 
 header, footer {
-    background-color: #3498db;
+    background-color: #421906;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    border-bottom:7.5px solid whitesmoke ;
+    box-shadow: 0px 10px 10px rgb(156, 156, 156) ;
 }
 
 footer {
